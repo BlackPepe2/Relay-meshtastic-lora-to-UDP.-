@@ -9,9 +9,6 @@
 // sx1278
 #define LORA_MAC_PRIVATE_SYNCWORD                   0x2B 
 #define LORA_MAC_PUBLIC_SYNCWORD                    0x34 
-// sx1262
-//#define LORA_MAC_PRIVATE_SYNCWORD                   0x24B4 
-//#define LORA_MAC_PUBLIC_SYNCWORD                    0x3444
 
 //radio operatine modes - see RegOpMode in register map
 #define MODE_SLEEP                                  0x00
@@ -330,3 +327,4 @@ const uint8_t REG_PADAC = 0x4D;
   CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
   DEALINGS IN THE SOFTWARE.
 */
+
